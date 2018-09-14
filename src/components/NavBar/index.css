@@ -1,0 +1,12 @@
+.header{
+    list-style: none;
+    width:100%;
+    background:#eee;
+}
+.header li{
+    display:inline-block;
+    width:100px;
+    height:50px;
+    line-height: 50px;
+    color: #337ab7;
+}

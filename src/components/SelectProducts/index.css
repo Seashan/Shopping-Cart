@@ -1,0 +1,39 @@
+.itemsContainer{
+       padding:10px 40px;
+}
+.itemsContainer .item{
+    position: relative;
+    display: inline-block;
+    margin-right:30px;
+    margin-bottom: 20px;
+}
+.itemsContainer .item:nth-child(2n){
+    margin-right:0px;
+}
+.itemsContainer .detail{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: #aaa;
+    opacity: 0.8;
+    color:green;
+    padding:5px 10px;
+}
+.itemsContainer .detail:hover{
+    background:#ddd;
+}
+.price{
+    float: left;
+}
+.qutantity{
+    float:right;
+}
+.detail img{
+    width:25px;
+    display: inline-block;
+    background: green;
+    margin-left:50px;
+}
+.detail img:hover{
+    transform: scale(1.3);
+}

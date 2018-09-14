@@ -1,0 +1,54 @@
+.cartContent ul{
+    list-style: none;
+    padding:0;
+}
+.pickProduct {
+    height:40px;
+    padding-left:10px
+}
+.pickProduct button{
+    height:100%;
+}
+.listItem {
+    padding: 10px;
+    border-bottom:1px solid #eee;
+}
+.listItem img{
+   display:inline-block;
+   width:120px;
+}
+.cartContent .listItem .detailText{
+   display: inline-block;
+   vertical-align: top;
+   margin-left:15px;
+}
+.detailText .textContent{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size:14px;
+    font-weight: bold;
+    width:80px;
+}
+.textContent .picText{
+    display: inline-block;
+}
+.picText .add{
+    display: inline-block;
+    background: url('./add.jpg');
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+}
+.picText .remove{
+    display: inline-block;
+    background: url('./remove.jpg');
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+    margin-left:20px;
+}
+.picText .add:hover, .picText .remove:hover{
+     transform: scale(1.2);
+}
